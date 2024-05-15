@@ -82,7 +82,6 @@ table {
 footer {
   background-color: rgb(87, 118, 128); /* 背景色を設定 */
   border-top: 1px solid #000; /* 黒色の境界線を追加 */
-  position: fixed; 
   bottom: 0;
   left: 0;
   right: 0;
