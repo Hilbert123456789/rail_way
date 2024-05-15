@@ -1,0 +1,93 @@
+/* styles.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(94, 185, 221); /* 背景色を設定 */
+  border-bottom: 1px solid #000; /* 黒色の境界線を追加 */
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* ロゴの幅を調整 */
+  height: auto;
+  margin-right: 10px; /* タイトルとの間のスペース */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(56, 53, 53); /* 文字色を設定 */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* リストを右寄せ */
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+}
+
+.h {
+  color: rgb(56, 53, 53);
+}
+
+#fuga {
+  background-color: white;
+}
+
+table {
+  background-color: white;
+}
+
+.container {
+  text-align: center; 
+}
+
+.table_container {
+  margin: 0 auto;    
+}
+
+footer {
+  background-color: rgb(87, 118, 128); /* 背景色を設定 */
+  border-top: 1px solid #000; /* 黒色の境界線を追加 */
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 40px 20px;
+}
+
+#content {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
